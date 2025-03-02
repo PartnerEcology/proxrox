@@ -176,14 +176,14 @@ Object {
     "tlsCertificateFile": "",
     "tlsCertificateKeyFile": "",
     "tmpDir": "/tmp/proxrox/dsahjk318djksa",
+     "templateDir": ""
   },
   "receivedConfig": Object {},
   "spawnResult": Object {
     "pid": 42,
     "status": 1,
     "stderr": "nginx config is borked yo!",
-  },
-  "templateDir": ""
+  }
 }
 `);
     }
