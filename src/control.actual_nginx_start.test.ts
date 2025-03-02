@@ -45,6 +45,7 @@ Object {
     "tlsCertificateFile": "",
     "tlsCertificateKeyFile": "",
     "tmpDir": "/tmp/proxrox/dsahjk318djksa",
+     "templateDir": ""
   },
   "receivedConfig": Object {
     "port": 49748,

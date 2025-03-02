@@ -134,6 +134,7 @@ Object {
     "tlsCertificateFile": "",
     "tlsCertificateKeyFile": "",
     "tmpDir": "/tmp/proxrox/dsahjk318djksa",
+     "templateDir": ""
   },
   "receivedConfig": Object {},
   "spawnResult": Object {
@@ -176,7 +177,7 @@ Object {
     "tlsCertificateFile": "",
     "tlsCertificateKeyFile": "",
     "tmpDir": "/tmp/proxrox/dsahjk318djksa",
-     "templateDir": ""
+     "templateDir": "",
   },
   "receivedConfig": Object {},
   "spawnResult": Object {

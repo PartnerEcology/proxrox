@@ -36,6 +36,7 @@ Object {
   "tlsCertificateFile": "",
   "tlsCertificateKeyFile": "",
   "tmpDir": "/tmp/proxrox/dsahjk318djksa",
+  "templateDir": ""
 }
 `);
   });
