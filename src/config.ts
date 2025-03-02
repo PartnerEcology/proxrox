@@ -28,6 +28,8 @@ export interface ConfigWithDefaults {
   tls?: boolean;
   tlsCertificateFile?: string;
   tlsCertificateKeyFile?: string;
+
+  templateDir?: string;
 }
 
 export type Config = Partial<ConfigWithDefaults>;

@@ -25,7 +25,12 @@ export async function generate(configWithDefaults: ConfigWithDefaults): Promise<
       p.additionalDirectives = indentToEnsureFittingPositioning(p.additionalDirectives, 6)
     }
   });
-
+  if (configWithDefaults.templateDir) {
+    return  compile(fsWithSync.readFileSync(
+      path.join(configWithDefaults.templateDir, 'nginx.conf.ejs'),
+      { encoding: 'utf8' }
+    ))(configWithDefaults)
+  }
   return compiledTemplate(configWithDefaults);
 }
 
