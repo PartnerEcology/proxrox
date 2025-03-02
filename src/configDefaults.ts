@@ -25,5 +25,6 @@ export function setDefaults(config: Config): ConfigWithDefaults {
     tls: config.tls ?? false,
     tlsCertificateFile: config.tlsCertificateFile || '',
     tlsCertificateKeyFile: config.tlsCertificateKeyFile || '',
+    templateDir: config.templateDir || ''
   };
 }

@@ -183,6 +183,7 @@ Object {
     "status": 1,
     "stderr": "nginx config is borked yo!",
   },
+  "templateDir": ""
 }
 `);
     }
