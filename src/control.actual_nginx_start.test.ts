@@ -41,11 +41,11 @@ Object {
     "ssi": false,
     "standardServer": true,
     "stubStatus": false,
+     "templateDir": "",
     "tls": false,
     "tlsCertificateFile": "",
     "tlsCertificateKeyFile": "",
-    "tmpDir": "/tmp/proxrox/dsahjk318djksa",
-     "templateDir": ""
+    "tmpDir": "/tmp/proxrox/dsahjk318djksa"
   },
   "receivedConfig": Object {
     "port": 49748,

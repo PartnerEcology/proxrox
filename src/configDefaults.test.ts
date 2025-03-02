@@ -32,11 +32,12 @@ Object {
   "ssi": false,
   "standardServer": true,
   "stubStatus": false,
+   "templateDir": "",
+  "templateDir": "",
   "tls": false,
   "tlsCertificateFile": "",
   "tlsCertificateKeyFile": "",
-  "tmpDir": "/tmp/proxrox/dsahjk318djksa",
-  "templateDir": ""
+  "tmpDir": "/tmp/proxrox/dsahjk318djksa"
 }
 `);
   });
