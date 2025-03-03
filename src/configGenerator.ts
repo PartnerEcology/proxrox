@@ -27,7 +27,7 @@ export async function generate(configWithDefaults: ConfigWithDefaults): Promise<
   });
   if (configWithDefaults.templateDir) {
     return  compile(fsWithSync.readFileSync(
-      path.join(process.cwd(),configWithDefaults.templateDir, 'nginx.conf'),
+      path.join(process.cwd(),configWithDefaults.templateDir, 'nginx.conf.ejs'),
       { encoding: 'utf8' }
     ))(configWithDefaults)
   }
